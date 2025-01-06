@@ -18,9 +18,9 @@ public class StepDefinitions {
     public void theScenarioPasses() {
     }
 
-    @Given("today is Sunday")
-    public void today_is_sunday() {
-        IsItFriday.day = "Sunday";
+    @Given("today is {string}")
+    public void today_is(String string) {
+        IsItFriday.day = string;
     }
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_friday_yet() {
@@ -38,6 +38,9 @@ class IsItFriday {
     static String day;
 
     static String isItFriday(String today) {
+        if(today.equals("Friday")) {
+            return "TGIF";
+        }
         return "Nope";
     }
 
