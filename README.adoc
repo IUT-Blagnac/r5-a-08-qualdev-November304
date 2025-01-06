@@ -7,7 +7,7 @@ Ce dépôt concerne les rendus de mailto:nathan.pagnucco@etu.univ-tlse2.fr[Natha
 == TP1
 
 .Contenu de is_it_friday_yet.feature
-[source,cucumber]
+[source,gherkin]
 ---
 Feature: Is it Friday yet?
   Everybody wants to know when it's Friday
