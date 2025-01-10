@@ -217,3 +217,38 @@ En retrospective il y a pas beaucoup de tests à faire sur les fractales donc il
 Image des tests :
 
 image::TestsTp3.png[width=80%]
+
+== TP4
+
+=== Résultat de doc minimal cucumber
+
+Cucumber Demo : 
+
+[source,shell]
+----
+include::cucumber_demo/report.txt[]
+----
+
+Hellocucumber :
+
+[source,shell]
+----
+include::hellocucumber/report.txt[]
+----
+
+=== Documentation améliorée de cucumber
+
+Impossible de faire marcher les commandes pour la documentation améliorée sur ma machine.
+
+=== Cukedoctor
+
+Sur le projet TP2 le cukedoctor est disponible au chemin suivant : 
+
+[source,adoc]
+----
+include::hellocucumber/cukedoctor/documentation.adoc[]
+----
+
+Pour le projet python du TP3, le fichier json généré par behave n'est pas conforme au fichier .json attendu par cukedoctor, je n'ai donc pas pu généré la documentation avec cukedoctor.
+Il y a un convertisseur mais il date de 7 ans et n'est pas installable avec pip.
+

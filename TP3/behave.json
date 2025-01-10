@@ -1,0 +1,242 @@
+[
+  {
+    "description": [
+      "To visualize fascinating mathematical patterns",
+      "As a user",
+      "I want to generate and validate the fractals"
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features/fractal.feature:6",
+        "name": "Generating and validating the Mandelbrot fractal",
+        "status": "passed",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features/fractal.feature:7",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:6"
+            },
+            "name": "the following parameters for Mandelbrot",
+            "result": {
+              "duration": 0.0002422332763671875,
+              "status": "passed"
+            },
+            "step_type": "given",
+            "table": {
+              "headings": [
+                "xmin",
+                "xmax",
+                "ymin",
+                "ymax",
+                "width",
+                "height",
+                "max_iter"
+              ],
+              "rows": [
+                [
+                  "-2.0",
+                  "2.0",
+                  "-2.0",
+                  "2.0",
+                  "800",
+                  "800",
+                  "100"
+                ]
+              ]
+            }
+          },
+          {
+            "keyword": "When",
+            "location": "features/fractal.feature:10",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:44"
+            },
+            "name": "I generate the mandelbrot fractal",
+            "result": {
+              "duration": 1.6242716312408447,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features/fractal.feature:11",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:72"
+            },
+            "name": "the image must contain at least one value representing the Mandelbrot set",
+            "result": {
+              "duration": 0.0010945796966552734,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features/fractal.feature:12",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:79"
+            },
+            "name": "the image must contain regions outside the Mandelbrot set",
+            "result": {
+              "duration": 0.000904083251953125,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features/fractal.feature:13",
+            "match": {
+              "arguments": [
+                {
+                  "name": "width",
+                  "value": "800"
+                },
+                {
+                  "name": "height",
+                  "value": "800"
+                }
+              ],
+              "location": "features/steps/test.py:34"
+            },
+            "name": "the fractal must have dimensions \"800x800\"",
+            "result": {
+              "duration": 0.00010776519775390625,
+              "status": "passed"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "keyword": "Scenario",
+        "location": "features/fractal.feature:15",
+        "name": "Generating and validating the Julia fractal",
+        "status": "passed",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features/fractal.feature:16",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:19"
+            },
+            "name": "the following parameters for Julia",
+            "result": {
+              "duration": 0.0003139972686767578,
+              "status": "passed"
+            },
+            "step_type": "given",
+            "table": {
+              "headings": [
+                "xmin",
+                "xmax",
+                "ymin",
+                "ymax",
+                "width",
+                "height",
+                "max_iter",
+                "c_real",
+                "c_imag"
+              ],
+              "rows": [
+                [
+                  "-2.0",
+                  "2.0",
+                  "-2.0",
+                  "2.0",
+                  "800",
+                  "800",
+                  "100",
+                  "0.285",
+                  "0.01"
+                ]
+              ]
+            }
+          },
+          {
+            "keyword": "When",
+            "location": "features/fractal.feature:19",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:88"
+            },
+            "name": "I generate the julia fractal",
+            "result": {
+              "duration": 0.6346981525421143,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features/fractal.feature:20",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:105"
+            },
+            "name": "the image must contain at least one value representing the Julia set",
+            "result": {
+              "duration": 0.000690460205078125,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features/fractal.feature:21",
+            "match": {
+              "arguments": [],
+              "location": "features/steps/test.py:110"
+            },
+            "name": "the image must contain regions outside the Julia set",
+            "result": {
+              "duration": 0.0006110668182373047,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features/fractal.feature:22",
+            "match": {
+              "arguments": [
+                {
+                  "name": "width",
+                  "value": "800"
+                },
+                {
+                  "name": "height",
+                  "value": "800"
+                }
+              ],
+              "location": "features/steps/test.py:34"
+            },
+            "name": "the fractal must have dimensions \"800x800\"",
+            "result": {
+              "duration": 0.0001010894775390625,
+              "status": "passed"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features/fractal.feature:1",
+    "name": "Fractal Generation",
+    "status": "passed",
+    "tags": []
+  }
+]

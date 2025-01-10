@@ -1,0 +1,16 @@
+  [32mGiven [0m[32mtoday is [0m[32m[1m"anything else!"[0m    [90m# hellocucumber.StepDefinitions.today_is(java.lang.String)[0m
+  [32mWhen [0m[32mI ask whether it's Friday yet[0m [90m# hellocucumber.StepDefinitions.i_ask_whether_it_s_friday_yet()[0m
+  [32mThen [0m[32mI should be told [0m[32m[1m"Nope"[0m       [90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)[0m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.280 s -- in hellocucumber.[1mRunCucumberTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.754 s
+[[1;34mINFO[m] Finished at: 2025-01-10T14:39:06+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m

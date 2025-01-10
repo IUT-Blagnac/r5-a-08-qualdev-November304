@@ -1,0 +1,16 @@
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.747 sec
+Running com.mycompany.app.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.444 s
+[[1;34mINFO[m] Finished at: 2025-01-10T14:38:48+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m
